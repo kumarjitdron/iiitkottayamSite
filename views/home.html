@@ -1,0 +1,773 @@
+<style>
+
+
+
+    #blink {
+        font-size: 10px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+    img1 {
+        border: 5px solid #555;
+    }
+
+    .custom-head {
+        padding: 0.01em 16px;
+    }
+
+    .custom-caption {
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    @media only screen and (max-width: 600px) {
+        .slider .slides li .caption {
+            top: 5% !important;
+        }
+        .btn {
+            width: 32%
+        }
+        .countainer2 {
+            width: 50%
+        }
+    }
+
+    .custom-faculty-card {
+        width: 48%
+    }
+
+    @media only screen and (min-width:600px) {
+        .custom-faculty-card {
+            width: 32%
+        }
+    }
+
+    .carousel .indicators .indicator-item.active {
+        background-color: rgb(56, 178, 71);
+    }
+
+    .carousel .indicators .indicator-item {
+        background-color: rgba(56, 178, 71, 0.5);
+    }
+
+    #showMore,
+    #showLess,
+    #knowMore {
+        padding: .375rem .75rem;
+        color: rgba(0, 0, 0, 0.5);
+        border: 2px solid #e0e0e0;
+        font-size: 14px;
+        cursor: pointer
+    }
+
+    .newsLink {
+        width: fit-content;
+        border-radius: 3px;
+        padding: .375rem .75rem;
+        color: #e0e0e0;
+        border: 2px solid #e0e0e0;
+    }
+
+    .carousel .indicators {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .custom-news div {
+        padding: 10px 15px;
+        border-bottom: solid 2px #f1f1f1;
+    }
+
+    .carousel .indicators .indicator-item {
+        margin: 4px
+    }
+
+    .slider .slides li .caption {
+        top: 85%;
+    }
+
+    .bannerCaption {
+        color: white;
+        text-shadow: 0 0 8px black;
+    }
+</style>
+<style>
+    .container2 {
+        position: relative;
+        width: 100%;
+        max-width: 2400px;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 0px solid #ddd;
+        width: 100%;
+    }
+
+    .container2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container2 .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: auto;
+        width: auto;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: auto;
+        padding: 3% 9%;
+        border: none;
+        cursor: pointer;
+        border-radius: 1px;
+        text-align: center;
+    }
+
+    .container2 .btn:hover {
+        background-color: white;
+    }
+</style>
+
+<style>
+    .content1 {
+        position: absolute;
+        bottom: 5;
+        background: rgb(0, 0, );
+        background: rgba(0, 0, 0, 0.4);s        
+        color: #ffffff;
+        width: 100%;
+        padding: 0px;
+    }
+</style>
+
+<div width="20%" height="60px"><span ng-show="1"><a href="https://mtech.iiitkottayam.ac.in/"><img ismap="" src="data/images/info/mtech1.gif" alt="" width="190" height="60" border="0" align="right" ></a></span>
+
+    <marquee behavior="alternate" width="80%" direction="right" height="60px">
+    </marquee>
+</div>
+
+<style>
+
+    .sidenav {
+        width: 250px;
+        height: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 250px;
+        right: 10px;
+        background: #beedd3;
+        overflow-x: hidden;
+        padding: 2px 0;
+    }
+
+    .sidenav a {
+        padding: 2px 2px 2px 2px;
+        text-decoration: none;
+        font-size: 20px;
+        color: red;
+        display: block;
+    }
+
+    .sidenav a:hover {
+        color: #064579;
+    }
+
+    .main {
+        margin-left: 80px;
+        /* Same width as the sidebar + left position in px */
+        font-size: 20px;
+        /* Increased text to enable scrolling */
+        padding: 0px 5px;
+    }
+
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+</style>
+
+
+
+
+
+<div class="sidenav">
+    <a href="https://youtu.be/wXHTI_-4J38">
+        <center>Fourth Convocation</center><small><center>10 December-2022</center><center>Video-click below</center></small>
+        <img src="data/images/home/convocation22.gif" alt="Fourth Convocation" style="width:250px; height:150px"></a>
+</div>
+</div>
+
+<div class="row" style="width:80%;padding-top:0px; margin-bottom:0;border:1px solid #bfbfbf; outline-style:none;">
+
+
+    <div id="topControl" style="width:100%; display:block; margin:0px auto;">
+
+
+        <div class="slider">
+            <ul class="slides">
+              
+                <li>
+                    <img src="data/images/home/parikshape2023.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">Pariksha Pe Charcha 2023 </h5></b>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="data/images/home/diwali3.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">Diwali @ IIIT Kottayam </h5></b>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="data/images/home/kscste.jpg" style="width:100%;height:120%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">KSCSTE TECHFEST 2022 </h5></b>
+                        </div>
+                    </div>
+                </li>
+                <!--<li>
+                       <img src="data/images/home/kcst_22.jpg" style="width:100%;height:120%;">
+                       <div class="caption center-align">
+                       <div class="content1 center-align" style="color:#ffffff;">
+                           <b><h5 style="font-size:120%;color:#ffffff">KCSTE TECHFEST 2022 </h5></b>
+                       </div>
+                       </div>
+                       </li>-->
+                <li>
+                    <img src="data/images/home/view15.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">Campus </h5></b>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="data/images/home/view14.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">Campus </h5></b>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="data/images/home/iiitview_2.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">IIIT Kottayam Charmed By The Beauty Of Sky</h5></b>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="data/images/home/iiitview_1.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">IIIT Kottayam</h5></b>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="data/images/home/iiitmedia.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">IIIT Kottayam @ Media</h5></b>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="data/images/home/hack1.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">IIIT Kottayam Achievements</h5></b>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="data/images/home/lift_scholarship.jpeg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">IIIT Kottayam Achievements</h5></b>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+
+                    <img src="data/images/home/onam.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">IIIT Kottayam ONAM 2K22</h5></b>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="data/images/home/reflection.jpeg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">IIIT Kottayam Achievements</h5></b>
+                        </div>
+                    </div>
+                </li>
+                <li>
+
+
+                    <img src="data/images/home/Google Hashcode 2022 .jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">IIIT Kottayam Achievements</h5></b>
+                        </div>
+                    </div>
+                </li>
+                <li>
+
+                    <img src="data/images/home/news paper .jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">IIIT Kottayam @ Media</h5></b>
+                        </div>
+                    </div>
+                </li>
+
+
+
+                <li>
+                    <img src="data/images/home/kala.jpeg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">IIIT Kottayam Achievements</h5></b>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="data/images/home/plan.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="data/images/home/view1.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+
+                        </div>
+                    </div>
+                </li>
+
+
+
+
+                <li>
+                    <img src="data/images/home/view13.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">Hostel </h5></b>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li>
+                    <img src="data/images/home/view11.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">Hostel </h5></b>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="data/images/home/view4.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <b><h5 style="font-size:120%;color:#ffffff">Campus </h5></b>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="data/images/home/view10.jpg" style="width:100%;height:100%;">
+                    <div class="caption center-align">
+                        <div class="content1 center-align" style="color:#ffffff;">
+                            <!--<b><h5 style="font-size:120%;color:#ffffff">Campus </h5></b>-->
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div style="width:100%;height:100%;z-index:3;position:absolute;top:0" class="flex flex-row flex-center flex-justify">
+                <div onclick="$('.slider').slider('prev');">
+                    <i class="fa fa-angle-double-left text-white" style="background:none;color:white;text-shadow:0 0 8px black;font-size:40px"></i>
+                </div>
+                <div onclick="$('.slider').slider('next');">
+                    <i class="fa fa-angle-double-right" style="background:none;color:white;text-shadow:0 0 8px black;font-size:40px"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row" style="padding-top:0px; margin-bottom:0;">
+        <div class="col s12">
+        </div>
+    </div>
+    <div class="row" style="border-bottom: 1px solid #bfbfbf">
+        <div class="col s12 m6">
+            <h5 style="font-size:20px">IIIT Kottayam Welcomes You</h5>
+            <div class="para justify" style="font-family: Trebuchet MS, Helvetica, sans-serif;">
+                Indian Institute of Information Technology, Kottayam at Valavoor, Pala, Kerala is one among the IIITs that have been established as "Institutions of National Importance" by Ministry of Education, Govt. of India under the ambit of IIIT (PPP) Act 2017.
+                IIIT Kottayam campus is situated at Valavoor, Pala, Kottayam - a picturous location, spread over in 53 acres of land - allotted by Govt. of Kerala in the southern part of the state commonly referred to as God's Own Country.
+                <br><br>
+                <!--The institute offers 4 year B.Tech and B.Tech (Hons) program with specialized courses covering all major research domains of computer science and engineering, viz Data Science, Cloud Computing, Artificial Intelligence, Machine Learning, Parallel Computing, HPC, Programmimg Languages, Bio Informatics and so forth.-->
+                The institute offers 4 year B.Tech and B.Tech (Hons) program namely:
+                <br>
+                <ol>
+                    <li>B.Tech in Computer Science and Engineeirng </li>
+                    <li>B.Tech in Electronics and Communication Engineering</li>
+                    <li>B.Tech in Computer Science and Engineeirng with specialization in Cyber Security</li>
+                    <li>B.Tech in Computer Science and Engineeirng with specialization in AI and Data Science</li>
+                </ol>
+                The curriculum is designed in close liason with the industry needs and covers major research domains in Computer Science, Electronics, Computer Security and Artificial Intelligence. The students are admitted against the JoSAA/CSAB counselling against
+                the JEE main rank list. In addition, Institute also offers Ph.D programs in CSE, ECE and Mathematics as well as M.Tech programme in (1) AI & Data Science for working professionals (2) Cyber Security for working professionals (3) CSE with
+                Specialization in FinTech (4) CSE with Specialization in Big Data and Machine Learning for the working professionals
+                <a href="views/img1/index.php">Photo Gallery </a>
+
+            </div>
+        </div>
+
+        <div class="col s12 m6">
+            <h5 style="font-family: Trebuchet MS, Helvetica, sans-serif;font-size:20px">Placement Details <span ng-show="1"><img ismap="" src="data/images/info/new1.gif" alt="" width="40" height="30" border="0"></span></h5>
+            <style type="text/css">
+                table,
+                th,
+                td {
+                    border: 1px solid #ddd;
+                    border-collapse: collapse;
+                }
+
+                th {
+                    text-align: center;
+                }
+
+                td {
+                    text-align: left;
+                
+                    text-align: center;
+                    font-weight: bold;
+                    background-color: f7f7f7;
+                    color: black;
+                    font-size: 21px;
+                    /*font-weight: bold;*/
+                }
+
+                .css-serial {
+                    counter-reset: serial-number;
+                    /* Set the serial number counter to 0 */
+                }
+
+                .css-serial td:first-child:before {
+                    counter-increment: serial-number;
+                    /* Increment the serial number counter */
+                    content: counter(serial-number);
+                    /* Display the counter */
+                }
+            </style>
+            <table>
+                <tr style="height:100px">
+                    <td style="color:rgb(56,178,71)"><u>2021 - 2022</u></td>
+                    <td style="color:rgb(56,178,71)"><u>2022 - 2023</u><br><small>(ongoing,as on 16-11-2022)</small></td>
+                </tr>
+                <tr style="height:80px">
+                    <td>Highest CTC-42 LPA</td>
+                    <td>Highest CTC-58.93 LPA<br>Above 30 LPA- 09 nos</td>
+                </tr>
+                <tr style="height:80px">
+                    <td>Average-10.45 LPA</td>
+                    <td>Average-13.90 LPA</td>
+                </tr>
+                <tr style="height:80px">
+                    <td>Individual Placements- 67</td>
+                    <td>Individual Placements- 74/82</td>
+                </tr>
+                <tr style="height:80px">
+                    <td>No.of Offers-212</td>
+                    <td>No.of Offers-120</td>
+                </tr>
+
+            </table>
+            
+
+
+        </div>
+
+    </div>
+
+
+    
+
+
+
+
+    <div class="row" style="border-bottom: 1px solid #bfbfbf">
+
+        <div class="col s12 m6">
+            <div class="card custom-card-depth border-radius" style="width: 100%;height:100%">
+                <div class="custom-head institute-blue-bg white-text border-radius-top flex flex-row flex-end valign-wrapper">
+                    <h5 style="flex-grow:1;font-size:20px" class="white-text">Latest News</h5>
+                    <h5 span style="font-size:18px"><a href="#!news" class="white-text" style="font-size:20px">More</a></span>
+                </div>
+
+                <div class="card-content" style="overflow:hidden;padding:0;height:350px;font-size:14px">
+                    <div class="custom-news">
+                        <div ng-repeat="news in homeCtrl.newsList">
+                            <a ng-href="{{news.link}}" target="{{news.target}}">{{news.text}}</a>
+
+                            <span ng-show="{{news.new}}"><img ismap src="data/images/info/new1.gif" alt="" border="0" height="30" width="40"/></span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6">
+            <div class="card custom-card-depth border-radius" style="width: 100%;height:400px">
+                <div class="custom-head institute-blue-bg white-text border-radius-top">
+                    <h5 class="white-text" style="font-size:20px">Events</h5>
+                </div>
+                <div class="carousel carousel-slider border-radius" data-indicators="true" id="sideEvents" style="border-radius:0 !important">
+
+
+                    <div class="carousel-item white-text white">
+                        <div class="flex flex-center-h flex-end" style="width:100%;height:55%;background:url(data/images/events/onam221.JPG) center center / cover">
+                            <a class="btn-flat" style="z-index:1000; margin: 0 0 10px 0;border-radius:3px;color: rgb(101,99,98); border: 1px solid rgba(224,224,224,0.52);background:rgba(247,247,247,0.52)" href="https://photos.app.goo.gl/ABHKdTdmBxjf1CJD7">Visit Gallery</a>
+                        </div>
+                        <div style="padding:15px;">
+                            <p class="para institute-blue" style="font-weight:bold;font-size:20px;margin:0">Aaravam 2022</p>
+                            <p class="para" style="color:rgba(0, 0, 0, 0.87);margin:0">IIIT Kottayam Onam Day Celebrations</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item white-text white">
+                        <div class="flex flex-center-h flex-end" style="width:100%;height:55%;background:url(data/images/events/indep2022.JPG) center center / cover">
+                            <a class="btn-flat" style="z-index:1000; margin: 0 0 10px 0;border-radius:3px;color: rgb(101,99,98); border: 1px solid rgba(224,224,224,0.52);background:rgba(247,247,247,0.52)" href="https://photos.app.goo.gl/WDHCM1JpzHwKPtkf6">Visit Gallery</a>
+                        </div>
+                        <div style="padding:15px;">
+                            <p class="para institute-blue" style="font-weight:bold;font-size:20px;margin:0">Independence Day 2022</p>
+                            <p class="para" style="color:rgba(0, 0, 0, 0.87);margin:0">IIIT Kottayam Independence Day Celebrations</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item white-text white">
+                        <div class="flex flex-center-h flex-end" style="width:100%;height:55%;background:url(data/images/events/yoga2022.JPG) center center / cover">
+                            <a class="btn-flat" style="z-index:1000; margin: 0 0 10px 0;border-radius:3px;color: rgb(101,99,98); border: 1px solid rgba(224,224,224,0.52);background:rgba(247,247,247,0.52)" href="https://photos.app.goo.gl/wxxWgygzVW3uorNW7">Visit Gallery</a>
+                        </div>
+                        <div style="padding:15px;">
+                            <p class="para institute-blue" style="font-weight:bold;font-size:20px;margin:0">Yoga Day 2022</p>
+                            <!--<p class="para" style="color:rgba(0, 0, 0, 0.87);margin:0">IIIT Kottayam Independence Day Celebrations</p>-->
+                        </div>
+                    </div>
+
+                    <div class="carousel-item white-text white">
+                        <div class="flex flex-center-h flex-end" style="width:100%;height:55%;background:url(data/images/events/republic22.JPG) center center / cover">
+                            <a class="btn-flat" style="z-index:1000; margin: 0 0 10px 0;border-radius:3px;color: rgb(101,99,98); border: 1px solid rgba(224,224,224,0.52);background:rgba(247,247,247,0.52)" href="https://photos.app.goo.gl/684gs7VtVn19Vf1m6">Visit Gallery</a>
+                        </div>
+                        <div style="padding:15px;">
+                            <p class="para institute-blue" style="font-weight:bold;font-size:20px;margin:0">Republic Day 2022</p>
+                            <p class="para" style="color:rgba(0, 0, 0, 0.87);margin:0">IIIT Kottayam Republic Day Celebrations</p>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item white-text white">
+                        <div class="flex flex-center-h flex-end" style="width:100%;height:55%;background:url(data/images/events/republic20.JPG) center center / cover">
+                            <a class="btn-flat" style="z-index:1000; margin: 0 0 10px 0;border-radius:3px;color: rgb(101,99,98); border: 1px solid rgba(224,224,224,0.52);background:rgba(247,247,247,0.52)" href="https://photos.app.goo.gl/dv6E5WXgGXenSWjK7">Visit Gallery</a>
+                        </div>
+                        <div style="padding:15px;">
+                            <p class="para institute-blue" style="font-weight:bold;font-size:20px;margin:0">Republic Day 2020</p>
+                            <p class="para" style="color:rgba(0, 0, 0, 0.87);margin:0">IIIT Kottayam Republic Day Celebrations</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item white-text white">
+                        <div class="flex flex-center-h flex-end" style="width:100%;height:55%;background:url(data/images/events/swatchpakhwada.JPG) center center / cover">
+                            <a class="btn-flat" style="z-index:1000; margin: 0 0 10px 0;border-radius:3px;color: rgb(101,99,98); border: 1px solid rgba(224,224,224,0.52);background:rgba(247,247,247,0.52)" href="https://photos.app.goo.gl/tjFe4gXhBP97st397">Visit Gallery</a>
+                        </div>
+                        <div style="padding:15px;">
+                            <p class="para institute-blue" style="font-weight:bold;font-size:20px;margin:0">Swachhata Pakhwada 2020</p>
+                            <p class="para" style="color:rgba(0, 0, 0, 0.87);margin:0">IIIT Kottayam Observes Swachhata Pakhwada 2020</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item white-text white">
+                        <div class="flex flex-center-h flex-end" style="width:100%;height:55%;background:url(data/images/events/druv.JPG) center center / cover">
+                            <a class="btn-flat" style="z-index:1000; margin: 0 0 10px 0;border-radius:3px;color: rgb(101,99,98); border: 1px solid rgba(224,224,224,0.52);background:rgba(247,247,247,0.52)" href="https://photos.app.goo.gl/SvUXmLzR17SgFEew8">Visit Gallery</a>
+                        </div>
+                        <div style="padding:15px;">
+                            <p class="para institute-blue" style="font-weight:bold;font-size:20px;margin:0">Dhruva 2019</p>
+                            <!--                            <p class="para" style="color:rgba(0, 0, 0, 0.87);margin:0">IIIT Kottayam Republic Day Celebrations</p>-->
+                        </div>
+                    </div>
+                    <div class="carousel-item white-text white">
+                        <div class="flex flex-center-h flex-end" style="width:100%;height:55%;background:url(data/images/events/Swatchatha1.JPG) center center / cover">
+                            <a class="btn-flat" style="z-index:1000; margin: 0 0 10px 0;border-radius:3px;color: rgb(101,99,98); border: 1px solid rgba(224,224,224,0.52);background:rgba(247,247,247,0.52)" href="https://photos.app.goo.gl/NHVFVdCvc1WdWuvk9">Visit Gallery</a>
+                        </div>
+                        <div style="padding:15px;">
+                            <p class="para institute-blue" style="font-weight:bold;font-size:20px;margin:0">Swachhata Hi Seva</p>
+                            <p class="para" style="color:rgba(0, 0, 0, 0.87);margin:0">IIIT Kottayam Observes Swachhata Hi Seva</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item white-text white">
+                        <div class="flex flex-center-h flex-end" style="width:100%;height:55%;background:url(data/images/events/con1.jpg) center center / cover">
+                            <a class="btn-flat" style="z-index:1000; margin: 0 0 10px 0;border-radius:3px;color: rgb(101,99,98); border: 1px solid rgba(224,224,224,0.52);background:rgba(247,247,247,0.52)" href="https://photos.app.goo.gl/BYZeTM5SNiVPWdXf9">Visit Gallery</a>
+                        </div>
+                        <div style="padding:15px;">
+                            <p class="para institute-blue" style="font-weight:bold;font-size:20px;margin:0">First Convocation</p>
+                            <p class="para" style="color:rgba(0, 0, 0, 0.87);margin:0">IIIT Kottayam First Convocation on August 27th 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row" style="border-bottom: 1px solid #bfbfbf">
+
+        <div class="col s12 m6">
+            <h5 style="font-size:20px">Vision</h5>
+            <div class="para justify" style="font-family: Trebuchet MS, Helvetica, sans-serif">
+                To contribute to India and the world through excellence in Information Technology, technical education and research and to serve as a valuable resource for industries and society.
+            </div>
+        </div>
+        <div class="col s12 m6">
+            <h5 style="font-size:20px">Mission</h5>
+            <div class="para justify" style="font-family: Trebuchet MS, Helvetica, sans-serif">
+                Generate a specialized cadre of Information Technology experts by imparting quality education,training and to attain international standards in teaching, research and consultancy with global linkage
+            </div>
+        </div>
+
+        <div class="col s12 m6">
+            <a href="http://icentre.iiitkottayam.ac.in/">
+                <h5 style="font-size:20px">Incubation Centre (AIC IIIT Kottayam)</h5>
+            </a>
+            <div class="para justify" style="font-family: Trebuchet MS, Helvetica, sans-serif">
+                Incubation Centre, will address the existing problems of entrepreneurs by providing them sufficient input in terms of knowledge, guidance, mentoring, training, and demonstrations. In addition, the space and facility will be provided to them. The centre
+                will incubate customers to increase the utility of technology relating to IoT and Cloud solutions for societal benefits.
+            </div>
+            <br>
+            <span class="para border-radius" id="knowMore" style="margin-bottom: 10px;">
+                    <a href="http://icentre.iiitkottayam.ac.in/" style="color:rgba(0,0,0,0.5)">Know More</a><br>
+            </span>
+            <br>
+        </div>
+        <div class="col s12 m6">
+            <a href="http://msme.iiitkottayam.ac.in">
+                <h5 style="font-size:20px">MSME Business Incubation Centre</h5>
+            </a>
+            <div class="para justify" style="font-family: Trebuchet MS, Helvetica, sans-serif">
+
+                MSME-BI, a business incubation center of IIIT-Kottayam, promotes business ideas of students or well-established companies. Each approved business idea would get Rs. 15lakhs. MSME-BI of our Institute motivates you to convert your business ideas to marketable
+                products. All interested engineering/arts/science/MBA institutes are encouraged to submit your business ideas.
+            </div>
+            <br>
+            <span class="para border-radius" id="knowMore" style="margin-bottom: 10px;">
+                    <a href="http://msme.iiitkottayam.ac.in" style="color:rgba(0,0,0,0.5)">Know More</a><br>
+            </span>
+            <br>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col m12 l6">
+            <div class="custom-head institute-blue-bg white-text border-radius-top flex flex-row flex-end valign-wrapper" style="margin-top:8px">
+                <h5 style="flex-grow:2;font-size:20px" class="white-text">Meet the Faculty</h5>
+                <span style="font-size:35px"><a href="#!faculty" class="white-text">+</a></span>
+            </div>
+            <div class="flex flex-row flex-justify flex-wrap">
+                <div class="card flex flex-column custom-faculty-card" style="height:290px" ng-repeat="faculty in homeCtrl.rankedFaculty | orderBy:'' | limitTo:3">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" ng-src="data/images/{{faculty.faculty.photo}}" style="width:100%">
+                    </div>
+                    <div class="card-content" style="padding:8px">
+                        <span class="card-title activator grey-text text-darken-4" style="margin-bottom:0px;font-size:20px;">{{faculty.faculty.name}}<i class="material-icons right notranslate" >more_vert</i></span>
+                        <p><i>{{faculty.faculty.designation}}</i></p>
+                    </div>
+                    <div class="card-reveal" style="padding:8px">
+                        <span class="card-title grey-text text-darken-4" style="font-size:20px"><i class="material-icons right notranslate" >close</i>{{faculty.faculty.name}}</span>
+                        <ol style="padding:0 0 0 12px">
+                            <li ng-repeat="area in faculty.faculty.area | limitTo:3">{{area}}</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col m12 l6">
+            <div class="card custom-card-depth border-radius" style="width:100%;height:350px">
+                <div class="custom-head institute-blue-bg white-text border-radius-top flex flex-row flex-end valign-wrapper">
+                    <h5 style="flex-grow:2; font-size:20px" class="white-text">Research Publication</h5>
+                    <span style="font-size:35px"><a href="#!researchPublication" class="white-text">+</a></span>
+                </div>
+                <div class="card-content" style="overflow-x:hidden;overflow-y:auto;padding:0;height:300px">
+                    <div ng-repeat="publication in homeCtrl.rankedPublication | orderBy:'rank' | limitTo:3" style="border-bottom:solid 2px #f1f1f1">
+                        <div style="padding:5px 10px;">
+                            <span style="color:#039be5">{{publication.publication.title}}</span>
+                            <span class="new badge" class="new badge" style="background:rgb(56, 178, 71)" data-badge-caption=""><a ng-href="https://scholar.google.co.in/scholar?&q={{publication.publication.title}}" style="text-decoration:none; color:white" target="_blank">More</a></span>
+                            <br>
+                            <span ng-repeat="author in publication.publication.authors" style="color:#8c8c8c"> - <b>{{author}}</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="col m12 l6">
+        <center>
+            <h4 style="font-size:20px" ; "align:centre">IIIT Kottayam at a Glance</h4>
+            <div class="container2">
+                <img src="data/images/home/iiitkview1.jpg" alt="colleg" style="width:75%;height:300px;border: 5px solid #555">
+                <button class="btn"><a href="https://www.youtube.com/embed/pmqLRh6PuSU" target="_blank"><b>Campus at a Glance</b></button>
+            </div>
+    </div>
+
+    <div class="col m12 l6">
+        <center>
+            <h4 style="font-size:20px" ; "align:centre">IIIT Kottayam - Virtual Tour</h4>
+            <div class="container2">
+                <img src="data/images/home/college.jpg" alt="colleg" style="width:75%;height:300px;border: 5px solid #555">
+                <button class="btn"><a href="https://www.youtube.com/embed/kI9UgW6pKGg?rel=0&hd=1" target="_blank"><b><h6 class="blink">Campus-Virtual Tour</h6></b></button>
+            </div>
+    </div>
+
+
+
+
+    </center>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+    function blink_text() {
+        $('.blink').fadeOut(500);
+        $('.blink').fadeIn(500);
+    }
+    setInterval(blink_text, 1000);
+</script>
